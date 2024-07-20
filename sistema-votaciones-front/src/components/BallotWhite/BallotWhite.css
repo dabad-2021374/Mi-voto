@@ -1,0 +1,164 @@
+/* Contenedor principal de la página */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://agg.org.gt/wp-content/uploads/2020/01/Portada-programa-ci%CC%81vico-1200x675.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh; /* Asegura que ocupa toda la pantalla */
+  padding: 0; /* Elimina cualquier padding */
+  box-sizing: border-box; /* Asegura que el padding no se sume al width y height */
+  overflow: hidden; /* Oculta el overflow horizontal */
+}
+
+/* Contenedor de la papeleta */
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.925); /* Fondo blanco semi-transparente */
+  padding: 20px;
+  border-radius: 15px; /* Bordes redondeados */
+  width: 90%; /* Ajusta el ancho según sea necesario */
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 120px; /* Añade margen superior para bajar la papeleta */
+  height: calc(100vh - 150px); /* Ajusta la altura disponible */
+  overflow-y: auto; /* Habilita el scroll vertical */
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white; /* Fondo blanco */
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-logo {
+  width: 150px; /* Ajusta el tamaño según sea necesario */
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.header-text h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.header-text p {
+  font-size: 1em;
+  margin: 5px 0 0 0;
+}
+
+/* Contenedor de las cartas */
+.card-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.421);
+  background-color: #fff; /* Fondo blanco para la tarjeta */
+  box-sizing: border-box; /* Asegura que el padding no se sume al width y height */
+  overflow: hidden; /* Asegura que los bordes redondeados se apliquen correctamente */
+  cursor: pointer; /* Cambia el cursor a un puntero cuando se pasa por encima */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Animación de transición */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Escala la tarjeta un poco cuando se pasa por encima */
+}
+
+.card.selected {
+  border: 3px solid #000; /* Añade un borde negro más grueso a la tarjeta seleccionada */
+  opacity: 1; /* Asegura que la tarjeta seleccionada no tiene transparencia */
+}
+
+.card.not-selected {
+  opacity: 0.5; /* Añade transparencia a las tarjetas no seleccionadas */
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px 15px 0 0; /* Bordes superiores redondeados */
+  overflow: hidden;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Esto asegura que la imagen no se salga del div */
+}
+
+.image-vertical {
+  width: 50%;
+  height: 200px; /* Ajusta la altura según sea necesario */
+  object-fit: cover; /* Asegura que la imagen cubra el espacio sin deformarse */
+}
+
+.party-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px; /* Ajusta la altura según sea necesario */
+  border-radius: 0 0 15px 15px; /* Solo bordes inferiores redondeados */
+  overflow: hidden;
+}
+
+.party-logo-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.party-color {
+  width: 50%;
+  height: 100%;
+  border-radius: 0 0 15px 0; /* Solo borde inferior derecho redondeado */
+}
+
+.party-logo {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 0 0 0 15px; /* Solo borde inferior izquierdo redondeado */
+}
+
+.party-logo img {
+  width: auto;
+  height: 70%; /* Ajusta la altura según sea necesario */
+  object-fit: contain;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,444 @@
+[
+  {
+    "department": "Alta Verapaz",
+    "town": [
+      { "name": "Cobán" },
+      { "name": "Santa Cruz Verapaz" },
+      { "name": "San Cristóbal Verapaz" },
+      { "name": "Tactic" },
+      { "name": "Tamahú" },
+      { "name": "Tucurú" },
+      { "name": "Panzós" },
+      { "name": "Senahú" },
+      { "name": "San Pedro Carchá" },
+      { "name": "San Juan Chamelco" },
+      { "name": "Lanquín" },
+      { "name": "Cahabón" },
+      { "name": "Chisec" },
+      { "name": "Chahal" },
+      { "name": "Fray Bartolomé de las Casas" },
+      { "name": "Santa Catalina La Tinta" },
+      { "name": "Raxruhá" }
+    ]
+  },
+  {
+    "department": "Baja Verapaz",
+    "town": [
+      { "name": "Salamá" },
+      { "name": "San Miguel Chicaj" },
+      { "name": "Rabinal" },
+      { "name": "Cubulco" },
+      { "name": "Granados" },
+      { "name": "Santa Cruz El Chol" },
+      { "name": "San Jerónimo" },
+      { "name": "Purulhá" }
+    ]
+  },
+  {
+    "department": "Chimaltenango",
+    "town": [
+      { "name": "Chimaltenango" },
+      { "name": "San José Poaquil" },
+      { "name": "San Martín Jilotepeque" },
+      { "name": "Comalapa" },
+      { "name": "Santa Apolonia" },
+      { "name": "Tecpán Guatemala" },
+      { "name": "Patzún" },
+      { "name": "Pochuta" },
+      { "name": "Patzicía" },
+      { "name": "Santa Cruz Balanyá" },
+      { "name": "Acatenango" },
+      { "name": "Yepocapa" },
+      { "name": "San Andrés Itzapa" },
+      { "name": "Parramos" },
+      { "name": "Zaragoza" },
+      { "name": "El Tejar" }
+    ]
+  },
+  {
+    "department": "Chiquimula",
+    "town": [
+      { "name": "Chiquimula" },
+      { "name": "San José La Arada" },
+      { "name": "San Juan Ermita" },
+      { "name": "Jocotán" },
+      { "name": "Camotán" },
+      { "name": "Olopa" },
+      { "name": "Esquipulas" },
+      { "name": "Concepción Las Minas" },
+      { "name": "Quezaltepeque" },
+      { "name": "San Jacinto" },
+      { "name": "Ipala" }
+    ]
+  },
+  {
+    "department": "El Progreso",
+    "town": [
+      { "name": "Guastatoya" },
+      { "name": "Morazán" },
+      { "name": "San Agustín Acasaguastlán" },
+      { "name": "San Cristóbal Acasaguastlán" },
+      { "name": "El Jícaro" },
+      { "name": "Sansare" },
+      { "name": "Sanarate" },
+      { "name": "San Antonio La Paz" }
+    ]
+  },
+  {
+    "department": "Escuintla",
+    "town": [
+      { "name": "Escuintla" },
+      { "name": "Santa Lucía Cotzumalguapa" },
+      { "name": "La Democracia" },
+      { "name": "Siquinalá" },
+      { "name": "Masagua" },
+      { "name": "Tiquisate" },
+      { "name": "La Gomera" },
+      { "name": "Guanagazapa" },
+      { "name": "Puerto San José" },
+      { "name": "Iztapa" },
+      { "name": "Palín" },
+      { "name": "San Vicente Pacaya" },
+      { "name": "Nueva Concepción" }
+    ]
+  },
+  {
+    "department": "Guatemala",
+    "towns": [
+      { "name": "Guatemala" },
+      { "name": "Santa Catarina Pinula" },
+      { "name": "San José Pinula" },
+      { "name": "San José del Golfo" },
+      { "name": "Palencia" },
+      { "name": "Chinautla" },
+      { "name": "San Pedro Ayampuc" },
+      { "name": "Mixco" },
+      { "name": "San Pedro Sacatepéquez" },
+      { "name": "San Juan Sacatepéquez" },
+      { "name": "San Raymundo" },
+      { "name": "Chuarrancho" },
+      { "name": "Fraijanes" },
+      { "name": "Amatitlán" },
+      { "name": "Villa Nueva" },
+      { "name": "Villa Canales" },
+      { "name": "Petapa" }
+    ]
+  },
+  {
+    "department": "Huehuetenango",
+    "town": [
+      { "name": "Huehuetenango" },
+      { "name": "Chiantla" },
+      { "name": "Malacatancito" },
+      { "name": "Cuilco" },
+      { "name": "Nentón" },
+      { "name": "San Pedro Necta" },
+      { "name": "Jacaltenango" },
+      { "name": "San Pedro Soloma" },
+      { "name": "San Ildefonso Ixtahuacán" },
+      { "name": "Santa Bárbara" },
+      { "name": "La Libertad" },
+      { "name": "La Democracia" },
+      { "name": "San Miguel Acatán" },
+      { "name": "San Rafael La Independencia" },
+      { "name": "Todos Santos Cuchumatán" },
+      { "name": "San Juan Atitán" },
+      { "name": "Santa Eulalia" },
+      { "name": "San Mateo Ixtatán" },
+      { "name": "Colotenango" },
+      { "name": "San Sebastián Huehuetenango" },
+      { "name": "Tectitán" },
+      { "name": "Concepción Huista" },
+      { "name": "San Juan Ixcoy" },
+      { "name": "San Antonio Huista" },
+      { "name": "San Sebastián Coatán" },
+      { "name": "Santa Cruz Barillas" },
+      { "name": "Aguacatán" },
+      { "name": "San Rafael Petzal" },
+      { "name": "San Gaspar Ixchil" },
+      { "name": "Santiago Chimaltenango" },
+      { "name": "Santa Ana Huista" }
+    ]
+  },
+  {
+    "department": "Izabal",
+    "town": [
+      { "name": "Puerto Barrios" },
+      { "name": "Livingston" },
+      { "name": "El Estor" },
+      { "name": "Morales" },
+      { "name": "Los Amates" }
+    ]
+  },
+  {
+    "department": "Jalapa",
+    "town": [
+      { "name": "Jalapa" },
+      { "name": "San Pedro Pinula" },
+      { "name": "San Luis Jilotepeque" },
+      { "name": "San Manuel Chaparrón" },
+      { "name": "San Carlos Alzatate" },
+      { "name": "Monjas" },
+      { "name": "Mataquescuintla" }
+    ]
+  },
+  {
+    "department": "Jutiapa",
+    "town": [
+      { "name": "Jutiapa" },
+      { "name": "El Progreso" },
+      { "name": "Santa Catarina Mita" },
+      { "name": "Agua Blanca" },
+      { "name": "Asunción Mita" },
+      { "name": "Yupiltepeque" },
+      { "name": "Atescatempa" },
+      { "name": "Jerez" },
+      { "name": "El Adelanto" },
+      { "name": "Zapotitlán" },
+      { "name": "Comapa" },
+      { "name": "Jalpatagua" },
+      { "name": "Conguaco" },
+      { "name": "Moyuta" },
+      { "name": "Pasaco" },
+      { "name": "San José Acatempa" },
+      { "name": "Quezada" }
+    ]
+  },
+  {
+    "department": "Petén",
+    "town": [
+      { "name": "Flores" },
+      { "name": "San José" },
+      { "name": "San Benito" },
+      { "name": "San Andrés" },
+      { "name": "La Libertad" },
+      { "name": "San Francisco" },
+      { "name": "Santa Ana" },
+      { "name": "Dolores" },
+      { "name": "San Luis" },
+      { "name": "Sayaxché" },
+      { "name": "Melchor de Mencos" },
+      { "name": "Poptún" }
+    ]
+  },
+  {
+    "department": "Quetzaltenango",
+    "town": [
+      { "name": "Quetzaltenango" },
+      { "name": "Salcajá" },
+      { "name": "Olintepeque" },
+      { "name": "San Carlos Sija" },
+      { "name": "Sibilia" },
+      { "name": "Cabricán" },
+      { "name": "Cajolá" },
+      { "name": "San Miguel Sigüilá" },
+      { "name": "Ostuncalco" },
+      { "name": "San Mateo" },
+      { "name": "Concepción Chiquirichapa" },
+      { "name": "San Martín Sacatepéquez" },
+      { "name": "Almolonga" },
+      { "name": "Cantel" },
+      { "name": "Huitán" },
+      { "name": "Zunil" },
+      { "name": "Colomba" },
+      { "name": "San Francisco La Unión" },
+      { "name": "El Palmar" },
+      { "name": "Coatepeque" },
+      { "name": "Génova" },
+      { "name": "Flores Costa Cuca" },
+      { "name": "La Esperanza" },
+      { "name": "Palestina de Los Altos" }
+    ]
+  },
+  {
+    "department": "Quiché",
+    "town": [
+      { "name": "Santa Cruz del Quiché" },
+      { "name": "Chiché" },
+      { "name": "Chinique" },
+      { "name": "Zacualpa" },
+      { "name": "Chajul" },
+      { "name": "Chichicastenango" },
+      { "name": "Patzité" },
+      { "name": "San Antonio Ilotenango" },
+      { "name": "San Pedro Jocopilas" },
+      { "name": "Cunén" },
+      { "name": "San Juan Cotzal" },
+      { "name": "Joyabaj" },
+      { "name": "Nebaj" },
+      { "name": "San Andrés Sajcabajá" },
+      { "name": "Uspantán" },
+      { "name": "Sacapulas" },
+      { "name": "San Bartolomé Jocotenango" },
+      { "name": "Canillá" },
+      { "name": "Chicamán" },
+      { "name": "Ixcán" },
+      { "name": "Pachalum" }
+    ]
+  },
+  {
+    "department": "Retalhuleu",
+    "town": [
+      { "name": "Retalhuleu" },
+      { "name": "San Sebastián" },
+      { "name": "Santa Cruz Muluá" },
+      { "name": "San Martín Zapotitlán" },
+      { "name": "San Felipe" },
+      { "name": "San Andrés Villa Seca" },
+      { "name": "Champerico" },
+      { "name": "Nuevo San Carlos" },
+      { "name": "El Asintal" }
+    ]
+  },
+  {
+    "department": "Sacatepéquez",
+    "town": [
+      { "name": "Antigua Guatemala" },
+      { "name": "Jocotenango" },
+      { "name": "Pastores" },
+      { "name": "Sumpango" },
+      { "name": "Santo Domingo Xenacoj" },
+      { "name": "Santiago Sacatepéquez" },
+      { "name": "San Bartolomé Milpas Altas" },
+      { "name": "San Lucas Sacatepéquez" },
+      { "name": "Santa Lucía Milpas Altas" },
+      { "name": "Magdalena Milpas Altas" },
+      { "name": "Santa María de Jesús" },
+      { "name": "Ciudad Vieja" },
+      { "name": "San Miguel Dueñas" },
+      { "name": "Alotenango" },
+      { "name": "San Antonio Aguas Calientes" },
+      { "name": "Santa Catarina Barahona" }
+    ]
+  },
+  {
+    "department": "San Marcos",
+    "town": [
+      { "name": "San Marcos" },
+      { "name": "San Pedro Sacatepéquez" },
+      { "name": "San Antonio Sacatepéquez" },
+      { "name": "Comitancillo" },
+      { "name": "San Miguel Ixtahuacán" },
+      { "name": "Concepción Tutuapa" },
+      { "name": "Tacaná" },
+      { "name": "Sibinal" },
+      { "name": "Tajumulco" },
+      { "name": "Tejutla" },
+      { "name": "San Rafael Pie de La Cuesta" },
+      { "name": "Nuevo Progreso" },
+      { "name": "El Tumbador" },
+      { "name": "El Rodeo" },
+      { "name": "Malacatán" },
+      { "name": "Catarina" },
+      { "name": "Ayutla" },
+      { "name": "Ocos" },
+      { "name": "San Pablo" },
+      { "name": "El Quetzal" },
+      { "name": "La Reforma" },
+      { "name": "Pajapita" },
+      { "name": "Ixchiguán" },
+      { "name": "San José Ojetenam" },
+      { "name": "San Cristóbal Cucho" },
+      { "name": "Sipacapa" },
+      { "name": "Esquipulas Palo Gordo" },
+      { "name": "Río Blanco" },
+      { "name": "San Lorenzo" }
+    ]
+  },
+  {
+    "department": "Santa Rosa",
+    "town": [
+      { "name": "Cuilapa" },
+      { "name": "Barberena" },
+      { "name": "Santa Rosa de Lima" },
+      { "name": "Casillas" },
+      { "name": "San Rafael Las Flores" },
+      { "name": "Oratorio" },
+      { "name": "San Juan Tecuaco" },
+      { "name": "Chiquimulilla" },
+      { "name": "Taxisco" },
+      { "name": "Santa María Ixhuatán" },
+      { "name": "Guazacapán" },
+      { "name": "Santa Cruz Naranjo" },
+      { "name": "Pueblo Nuevo Viñas" },
+      { "name": "Nueva Santa Rosa" }
+    ]
+  },
+  {
+    "department": "Sololá",
+    "town": [
+      { "name": "Sololá" },
+      { "name": "San José Chacayá" },
+      { "name": "Santa María Visitación" },
+      { "name": "Santa Lucía Utatlán" },
+      { "name": "Nahualá" },
+      { "name": "Santa Catarina Ixtahuacán" },
+      { "name": "Santa Clara La Laguna" },
+      { "name": "Concepción" },
+      { "name": "San Andrés Semetabaj" },
+      { "name": "Panajachel" },
+      { "name": "Santa Catarina Palopó" },
+      { "name": "San Antonio Palopó" },
+      { "name": "San Lucas Tolimán" },
+      { "name": "Santa Cruz La Laguna" },
+      { "name": "San Pablo La Laguna" },
+      { "name": "San Marcos La Laguna" },
+      { "name": "San Juan La Laguna" },
+      { "name": "San Pedro La Laguna" },
+      { "name": "Santiago Atitlán" }
+    ]
+  },
+  {
+    "department": "Suchitepéquez",
+    "town": [
+      { "name": "Mazatenango" },
+      { "name": "Cuyotenango" },
+      { "name": "San Francisco Zapotitlán" },
+      { "name": "San Bernardino" },
+      { "name": "San José El Ídolo" },
+      { "name": "Santo Domingo Suchitepéquez" },
+      { "name": "San Lorenzo" },
+      { "name": "Samayac" },
+      { "name": "San Pablo Jocopilas" },
+      { "name": "San Antonio Suchitepéquez" },
+      { "name": "San Miguel Panán" },
+      { "name": "San Gabriel" },
+      { "name": "Chicacao" },
+      { "name": "Patulul" },
+      { "name": "Santa Bárbara" },
+      { "name": "San Juan Bautista" },
+      { "name": "Santo Tomás La Unión" },
+      { "name": "Zunilito" },
+      { "name": "Pueblo Nuevo" },
+      { "name": "Río Bravo" }
+    ]
+  },
+  {
+    "department": "Totonicapán",
+    "town": [
+      { "name": "Totonicapán" },
+      { "name": "San Cristóbal Totonicapán" },
+      { "name": "San Francisco El Alto" },
+      { "name": "San Andrés Xecul" },
+      { "name": "Momostenango" },
+      { "name": "Santa María Chiquimula" },
+      { "name": "Santa Lucía La Reforma" },
+      { "name": "San Bartolo" }
+    ]
+  },
+  {
+    "department": "Zacapa",
+    "town": [
+      { "name": "Zacapa" },
+      { "name": "Estanzuela" },
+      { "name": "Río Hondo" },
+      { "name": "Gualán" },
+      { "name": "Teculután" },
+      { "name": "Usumatlán" },
+      { "name": "Cabañas" },
+      { "name": "Huité" },
+      { "name": "La Unión" },
+      { "name": "San Diego" }
+    ]
+  }
+]

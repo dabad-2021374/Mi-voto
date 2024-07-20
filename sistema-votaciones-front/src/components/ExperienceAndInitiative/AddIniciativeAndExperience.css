@@ -1,0 +1,216 @@
+/* Register.css */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.register-container {
+  background-image: url('../../assets/images/FondoRegister.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.auth-box-register {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-height: 95vh;
+  max-width: 800px;
+  width: 100%;
+  z-index: 1;
+  text-align: left;
+  box-sizing: border-box;
+  overflow-y: auto; 
+}
+
+.general-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
+  align-content: stretch;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logo, .logoTse {
+  height: 12vh;
+  width: auto;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-register {
+  color: #4C9CBA;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.first-inputs-container {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.auth-form-register {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-inputs-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  column-gap: 1rem;
+}
+
+.input-container {
+  margin-bottom: 1rem;
+}
+
+.auth-form-register label {
+  font-weight: bold;
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.auth-form-register select,
+.auth-form-register input {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 2px solid #4C9CBA;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #EFEFEF;
+}
+
+.auth-form-register .react-select__control {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #4C9CBA;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #EFEFEF;
+}
+
+.select-wrapper { 
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.select-wrapper .select-icon {
+  margin-left: 10px;
+  height: 68%;
+  width: 24px;
+  position: absolute;
+  pointer-events: none;
+}
+
+.auth-form-register .btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #4C9CBA;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-form-register .btn:hover {
+  background-color: #3b8a9e;
+}
+
+.btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.auth-form-switch-label {
+  margin-top: 1rem;
+  display: block;
+  text-align: center;
+  color: #4C9CBA;
+  cursor: pointer;
+}
+
+.auth-form-switch-label:hover {
+  text-decoration: underline;
+}
+
+.select-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.select-icon {
+  margin-left: 10px;
+  height: 68%;
+  width: 24px;
+  position: absolute;
+}
+
+.select-wrapper-date {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-bottom: 2px solid #4C9CBA;
+  background-color: #EFEFEF;
+  border-radius: 4px;
+}
+
+.select-wrapper-date input {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.select-wrapper input,
+.select-wrapper select {
+  padding-left: 40px;
+  flex: 1;
+}
+
+.select-wrapper-date .input-center {
+  text-align: center;
+}
+
+.validation-message {
+  color: red;
+  font-size: 12px;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

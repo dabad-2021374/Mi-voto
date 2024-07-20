@@ -1,0 +1,126 @@
+.ballot-navigation .btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dataLive {
+    font-weight: bold;
+    color: red;
+    font-size: xx-large;
+    font-style: italic;
+}
+ 
+.ballot-navigation button {
+    margin-top: 20px !important;
+    background: none !important;
+}
+ 
+.primary {
+    background-color: #ededee;
+}
+ 
+.primary:hover {
+    background: #0b7dda;
+}
+ 
+.secondary {
+    background-color: #e7e7e7;
+    color: black;
+}
+ 
+.secondary:hover {
+    background: #ddd;
+}
+ 
+.success {
+    background-color: #04AA6D;
+}
+ 
+.success:hover {
+    background-color: #46a049;
+}
+ 
+.warning {
+    background-color: #ff9800;
+}
+ 
+.warning:hover {
+    background: #e68a00;
+}
+ 
+.danger {
+    background-color: #f44336;
+}
+ 
+.danger:hover {
+    background: #da190b;
+}
+ 
+.ballot-navigation .button-white {
+    background-color: #ffffff !important;
+    color: black;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+ 
+.ballot-navigation .button-white:hover  {
+    background-color: #cbcbcb !important;
+    color: black !important;
+}
+ 
+.ballot-navigation .button-green {
+    background-color: #c4eeb1 !important;
+    color: black;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+ 
+.ballot-navigation .button-green:hover {
+    background-color: #52b023 !important
+}
+
+.ballot-navigation .button-red {
+    background-color: #ecaeb1 !important;
+    color: black;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+ 
+.ballot-navigation .button-red:hover {
+    background-color: #d81b60 !important
+}
+
+.ballot-navigation .button-blue {
+    background-color: #acdff1 !important;
+    color: black;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+ 
+.ballot-navigation .button-blue:hover {
+    background-color: #1c7ad1 !important
+}
+
+.ballot-navigation .button-yellow {
+    background-color: #ede9b1 !important;
+    color: black;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+ 
+.ballot-navigation .button-yellow:hover {
+    background-color: #fdd835 !important
+}
+
+.header-text{
+    display: flex;
+    justify-content: center;
+}

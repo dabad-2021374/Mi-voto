@@ -1,0 +1,981 @@
+[{
+  "_id": {
+    "$oid": "666d11205e29785e8df7f71e"
+  },
+  "partie": {
+    "$oid": "6656aa177cc2ec785b0c1a14"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "665d44944e9281b80a23dae3"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e20d"
+      },
+      "_id": {
+        "$oid": "665d14eb40741d8249fb4568"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:20.593Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d11205e29785e8df7f722"
+  },
+  "partie": {
+    "$oid": "665bea6adcacc0a0a9c1c43b"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "66613faad11a4a23ed26a362"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "60c72b2f9b1e8a5f3c6d4b50"
+      },
+      "_id": {
+        "$oid": "6656aa177cc2ec785b0c1a17"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:20.843Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d11215e29785e8df7f726"
+  },
+  "partie": {
+    "$oid": "66652d9acf44ec35b9875af9"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "666d0e5f3f19a664a7702ab6"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e215"
+      },
+      "_id": {
+        "$oid": "66653d6ff28fa8259f98c6a6"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666d0d493f19a664a7702a07"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e21e"
+      },
+      "_id": {
+        "$oid": "66691da20d5c46a38d3f0a6f"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:21.076Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d11215e29785e8df7f72b"
+  },
+  "partie": {
+    "$oid": "6665e70ad28f579869c47f0b"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "665d417c869f03cdbcbd98b2"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e216"
+      },
+      "_id": {
+        "$oid": "6665eb258051440a4fdc109b"
+      }
+    },
+    {
+      "user": {
+        "$oid": "665d4758869f03cdbcbd98f1"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e21a"
+      },
+      "_id": {
+        "$oid": "6665ebd04b4a29c569ec322d"
+      }
+    },
+    {
+      "user": {
+        "$oid": "665d4912869f03cdbcbd9930"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e21f"
+      },
+      "_id": {
+        "$oid": "6665f2e44b4a29c569ec3475"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:21.306Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d11215e29785e8df7f731"
+  },
+  "partie": {
+    "$oid": "6666c1b9b80636ef54cc1d04"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "6666c0c5b80636ef54cc1c07"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e217"
+      },
+      "_id": {
+        "$oid": "6665eacc8051440b4fdc1081"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:21.534Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d11215e29785e8df7f735"
+  },
+  "partie": {
+    "$oid": "666bbd97bbdf4fc12bd2fa1d"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "666c6057213c94e769b4bf13"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c6d10213c94e769b4c01a"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666c60e7213c94e769b4bf42"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c6d24213c94e769b4c02b"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666c61a0213c94e769b4bf97"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c6d3e213c94e769b4c03e"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666c61f2213c94e769b4bfc2"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c6d4f213c94e769b4c053"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666c6cb6213c94e769b4bff9"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c6d74213c94e769b4c06a"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:21.763Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d11215e29785e8df7f73d"
+  },
+  "partie": {
+    "$oid": "666bc03abbdf4fc12bd2fc31"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "666c6edd213c94e769b4c254"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c7072213c94e769b4c2c2"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666c6f9a213c94e769b4c27f"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c708b213c94e769b4c2d3"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666c6fee213c94e769b4c2aa"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c70cc213c94e769b4c2e6"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:21.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d11225e29785e8df7f743"
+  },
+  "partie": {
+    "$oid": "666bc26abbdf4fc12bd2fe31"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "666c72ca213c94e769b4c4aa"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c740b213c94e769b4c509"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666c7356213c94e769b4c4d5"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c741a213c94e769b4c51a"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666c73e0213c94e769b4c500"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c742a213c94e769b4c52d"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:22.238Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d11225e29785e8df7f749"
+  },
+  "partie": {
+    "$oid": "666bc372bbdf4fc12bd3001f"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "666c75d9213c94e769b4c6e8"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c7745213c94e769b4c747"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666c7626213c94e769b4c713"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c7754213c94e769b4c758"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666c76c7213c94e769b4c73e"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c7765213c94e769b4c76b"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:22.475Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d11225e29785e8df7f74f"
+  },
+  "partie": {
+    "$oid": "666bc516bbdf4fc12bd301bf"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "666c7922213c94e769b4c9f4"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c7a7b213c94e769b4ca53"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666c79bc213c94e769b4ca1f"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c7a97213c94e769b4ca64"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666c7a4b213c94e769b4ca4a"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c7aae213c94e769b4ca77"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:22.704Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d11225e29785e8df7f755"
+  },
+  "partie": {
+    "$oid": "666bc7cebbdf4fc12bd3044b"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "666c7b70213c94e769b4cb75"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c7ca7213c94e769b4ccad"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666c7bc8213c94e769b4cba0"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c7cbb213c94e769b4ccbe"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666c7c04213c94e769b4cbcb"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c7cce213c94e769b4ccd1"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:22.944Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d11235e29785e8df7f75b"
+  },
+  "partie": {
+    "$oid": "666bc8febbdf4fc12bd305c8"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "666c7d70213c94e769b4cde4"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c7eca213c94e769b4ce43"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666c7df3213c94e769b4ce0f"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c7ed9213c94e769b4ce54"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666c7e6f213c94e769b4ce3a"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c7ee9213c94e769b4ce67"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:23.174Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d11235e29785e8df7f761"
+  },
+  "partie": {
+    "$oid": "666bcb42bbdf4fc12bd30a56"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "666c810a213c94e769b4cf90"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c8252213c94e769b4d0da"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666c8175213c94e769b4cfbb"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c825f213c94e769b4d0eb"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666c81db213c94e769b4cfe6"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c827b213c94e769b4d0fe"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:23.408Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d11235e29785e8df7f767"
+  },
+  "partie": {
+    "$oid": "666bcc60bbdf4fc12bd30dae"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "666ceb29a8f26dd2b14de91f"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666cec31a8f26dd2b14de97e"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666cebaca8f26dd2b14de94a"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666cec40a8f26dd2b14de98f"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666cec10a8f26dd2b14de975"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666cec52a8f26dd2b14de9a2"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:23.641Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d11235e29785e8df7f76d"
+  },
+  "partie": {
+    "$oid": "666bcd72bbdf4fc12bd30f28"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "666ce92ca8f26dd2b14de75a"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666cea4ca8f26dd2b14de7d0"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666ce98da8f26dd2b14de79c"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666cea5fa8f26dd2b14de7e1"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666ce9c9a8f26dd2b14de7c7"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666cea71a8f26dd2b14de7f4"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:23.868Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d11245e29785e8df7f773"
+  },
+  "partie": {
+    "$oid": "666bcf02bbdf4fc12bd310f9"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "666ced23a8f26dd2b14dead3"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666cee02a8f26dd2b14deb5d"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666ced98a8f26dd2b14deafe"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666cee11a8f26dd2b14deb6e"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666ceddaa8f26dd2b14deb54"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666cee21a8f26dd2b14deb81"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:24.106Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d11245e29785e8df7f779"
+  },
+  "partie": {
+    "$oid": "666bd0d2bbdf4fc12bd31434"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "666cefc9a8f26dd2b14decb8"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666cf073a8f26dd2b14ded17"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666cf005a8f26dd2b14dece3"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666cf0a2a8f26dd2b14ded28"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666cf047a8f26dd2b14ded0e"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666cf0b3a8f26dd2b14ded3b"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:24.342Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d11245e29785e8df7f77f"
+  },
+  "partie": {
+    "$oid": "666bd155bbdf4fc12bd31565"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "666cf1faa8f26dd2b14dee8e"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666cf482a8f26dd2b14deff3"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666cf231a8f26dd2b14deeb9"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666cf4aea8f26dd2b14df004"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666cf460a8f26dd2b14defea"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666cf4bca8f26dd2b14df017"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:24.575Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d11245e29785e8df7f785"
+  },
+  "partie": {
+    "$oid": "666bd1ffbbdf4fc12bd3169c"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "666cf5f8a8f26dd2b14df15a"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666cf6cba8f26dd2b14df1b9"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666cf668a8f26dd2b14df185"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666cf6d8a8f26dd2b14df1ca"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666cf6aea8f26dd2b14df1b0"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666cf70ca8f26dd2b14df1dd"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:24.819Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d11255e29785e8df7f78b"
+  },
+  "partie": {
+    "$oid": "666bd408bbdf4fc12bd31895"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "666c79b61e7b996454f20f40"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c7ab81e7b996454f2117e"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666c7cef1e7b996454f21344"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c7d621e7b996454f213e4"
+      }
+    },
+    {
+      "user": {
+        "$oid": "666c7bdd1e7b996454f2127a"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c7d821e7b996454f213f7"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:25.059Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "666d11255e29785e8df7f791"
+  },
+  "partie": {
+    "$oid": "666c12f80b7c8de9a7933323"
+  },
+  "candidates": [
+    {
+      "user": {
+        "$oid": "665d3f6485fb3f9a39a2249b"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666c15300b7c8de9a79344a5"
+      }
+    },
+    {
+      "user": {
+        "$oid": "665d53b131b90c5b53ed4f44"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e214"
+      },
+      "_id": {
+        "$oid": "666d11255e29785e8df7f793"
+      }
+    },
+    {
+      "user": {
+        "$oid": "665d52f031b90c5b53ed4ef7"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e20d"
+      },
+      "_id": {
+        "$oid": "665d14eb40741d8249fb4567"
+      }
+    },
+    {
+      "user": {
+        "$oid": "665d53f231b90c5b53ed4f58"
+      },
+      "role": "DIPUTADO",
+      "district": {
+        "$oid": "665561c38ebba5fcefd9e20d"
+      },
+      "_id": {
+        "$oid": "665d14eb40741d8249fb4566"
+      }
+    }
+  ],
+  "year": {
+    "$date": "2024-06-15T03:57:25.304Z"
+  }
+}]

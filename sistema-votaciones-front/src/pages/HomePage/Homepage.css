@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.container-img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://agg.org.gt/wp-content/uploads/2020/01/Portada-programa-ci%CC%81vico-1200x675.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 0;
+}
+
+.container-top {
+    background: linear-gradient(to right, #69b0ee, #1c4778);
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    font-size: 25px;
+}
+
+.container-top h1 {
+    margin: 0;
+    flex: 1;
+    text-align: center;
+    font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-info h6 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.surname {
+    margin-top: -5px;
+}
+
+.user-details {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.user-details img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.user-details h8 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+    border-radius: 6px;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f0f0f0;
+}
+
+.container-homepage {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center; 
+    align-items: flex-start;
+    overflow-x: auto; 
+    justify-content: center; /* Centrar las tarjetas horizontalmente */
+    align-items: flex-start;
+    overflow-x: auto; /* Scroll horizontal si es necesario */
+    margin-top: 160px;
+    z-index: 1;
+    padding-bottom: 20px;
+}
+
+.card-options {
+    flex: 0 0 auto;
+    width: 250px;
+    margin: 10px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #4C9CBA;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-options:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card-options figure {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    padding-top: 150%; 
+    overflow: hidden;
+}
+
+.card-options img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+
+}
+
+.card-options .description {
+    padding: 10px;
+}
+
+.card-options h3 {
+    font-size: 16px;
+    margin: 0;
+    color: #fff;
+}

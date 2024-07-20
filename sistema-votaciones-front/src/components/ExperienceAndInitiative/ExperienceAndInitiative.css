@@ -1,0 +1,241 @@
+/* Fondo general de la página */
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://agg.org.gt/wp-content/uploads/2020/01/Portada-programa-ci%CC%81vico-1200x675.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ei-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 90px auto 20px auto;
+    width: 90%;
+    max-width: 1200px;
+    height: calc(100vh - 110px);
+    background-color: rgba(255, 255, 255, 0.925);
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+}
+
+.ei-experiences-container,
+.ei-initiatives-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.ei-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.ei-title-container h2 {
+    margin: 0;
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+}
+
+.ei-add-icon {
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    color: #007bff;
+}
+
+.ei-add-icon:hover {
+    transform: scale(1.2);
+}
+
+.ei-experience-cards,
+.ei-initiatives-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.ei-experience-card,
+.ei-initiative-card {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    flex: 1 1 calc(33.333% - 20px);
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: white;
+    position: relative;
+}
+
+.ei-experience-card:hover,
+.ei-initiative-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.experience-icon-container,
+.initiative-icon-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.experience-icon,
+.initiative-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    color: white;
+}
+
+.experience-icon:hover,
+.initiative-icon:hover {
+    transform: scale(1.2);
+}
+
+.ei-card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.ei-card p {
+    margin: 10px 0;
+    color: white;
+    line-height: 1.5;
+}
+
+.ei-initiative-card .description {
+    overflow: auto;
+    max-height: 100px;
+    margin-top: 10px;
+}
+
+.ei-initiative-card .description::-webkit-scrollbar {
+    width: 6px;
+}
+
+.ei-initiative-card .description::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.ei-initiative-card .description::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.ei-experience-card p,
+.ei-initiative-card p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.ei-experience-cards::-webkit-scrollbar {
+    width: 8px;
+}
+
+.ei-experience-cards::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.ei-initiatives-cards::-webkit-scrollbar {
+    height: 8px;
+}
+
+.ei-initiatives-cards::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    max-width: 600px;
+    width: 90%;
+    position: relative;
+    z-index: 1001;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    max-height: 90vh;
+}
+
+.modal-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    color: #007bff;
+}
+
+.modal-close-button:hover {
+    transform: scale(1.2);
+}
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.auth-box-register {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 95vh;
+    max-width: 600px;
+    width: 100%;
+    z-index: 1;
+    text-align: left;
+    box-sizing: border-box;
+    overflow-y: auto;
+}

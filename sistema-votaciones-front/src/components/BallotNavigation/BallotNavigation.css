@@ -1,0 +1,88 @@
+.ballot-navigation {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.ballot-navigation a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+.ballot-navigation a.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 2px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+.button-green {
+    background-color: #c4eeb1;
+    color: black;
+}
+
+.button-green:hover {
+    background-color: #52b023;
+}
+
+.button-blue {
+    background-color: #acdff1;
+    color: black;
+}
+
+.button-blue:hover {
+    background-color: #1c7ad1;
+}
+
+.button-pink {
+    background-color: #ecaeb1;
+    color: black;
+}
+
+.button-pink:hover {
+    background-color: #d81b60;
+}
+
+.button-yellow {
+    background-color: #ede9b1;
+    color: black;
+}
+
+.button-yellow:hover {
+    background-color: #fdd835;
+    color: black;
+}
+
+.button-white {
+    background-color: #ffffff;
+    color: black;
+}
+
+.button-white:hover {
+    background-color: #cbcbcb;
+    color: black;
+}
+
+.button-end {
+    background: linear-gradient(to right, #69b0ee, #3c6697); 
+    color: black;
+}
+
+.button-end:hover {
+    background-color: #cbcbcb;
+    color: black;
+}
+
+.disabled-link {
+    pointer-events: none;
+}

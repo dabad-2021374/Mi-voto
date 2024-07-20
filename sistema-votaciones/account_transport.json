@@ -1,0 +1,10 @@
+{
+  "service": "gmail",
+  "auth": {
+    "type": "OAuth2",
+    "user": "mivoto.gt@gmail.com",
+    "clientId": "1074128153797-6ke0sgh17d3a0lb5ldp9kjc0h8lkmjlm.apps.googleusercontent.com",
+    "clientSecret": "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",
+    "refreshToken": "1//04gCO3uNtRFmRCgYIARAAGAQSNwF-L9IrOrgimT6tuRSHY-rq8CNwTNgeUkPNy4APiLVSljD7juM-U6E8wxuqo8BF0k4oActKIV8"
+  }
+}

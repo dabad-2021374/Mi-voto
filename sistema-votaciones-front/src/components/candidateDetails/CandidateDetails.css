@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    overflow: hidden;
+    overflow-y: auto; /* Habilita el scroll vertical */
+  }
+  
+  /* Personalizar scrollbar vertical en body */
+  body::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra de desplazamiento vertical */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color de fondo de la pista */
+    border-radius: 10px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #888; /* Color del pulgar */
+    border-radius: 10px;
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color del pulgar al pasar el mouse */
+  }
+  
+  
+  .container-img-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://agg.org.gt/wp-content/uploads/2020/01/Portada-programa-ci%CC%81vico-1200x675.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh; /* Asegura que ocupa toda la pantalla */
+    padding: 0; /* Elimina cualquier padding */
+    box-sizing: border-box; /* Asegura que el padding no se sume al width y height */
+    overflow: hidden; /* Oculta el overflow horizontal */
+    overflow-y: auto; /* Habilita el scroll vertical */
+  }
+  
+  /* Personalizar scrollbar vertical */
+  .container-img-1::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra de desplazamiento vertical */
+  }
+  
+  .container-img-1::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color de fondo de la pista */
+    border-radius: 10px;
+  }
+  
+  .container-img-1::-webkit-scrollbar-thumb {
+    background: #888; /* Color del pulgar */
+    border-radius: 10px;
+  }
+  
+  .container-img-1::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color del pulgar al pasar el mouse */
+  }
+  
+  .container-parties {
+    display: flex;
+    flex-direction: column; /* Cambia a columna para agrupar partidos */
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px; /* Bordes redondeados */
+    width: 90%; /* Ajusta el ancho según sea necesario */
+    text-align: center;
+    margin-top: 120px; /* Añade margen superior para bajar la papeleta */
+    height: calc(100vh - 150px); /* Ajusta la altura disponible */
+    overflow-x: auto; /* Habilita el scroll horizontal */
+  }
+  
+  .party-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .party-candidates {
+    display: flex;
+    flex-direction: row; /* Cambia a fila para disposición horizontal */
+    overflow-x: auto; /* Habilita el scroll horizontal */
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 100%;  /* Ajusta a 100% dentro de su contenedor */ /* Mantiene un máximo para que no se expanda demasiado en pantallas grandes */
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    scroll-behavior: smooth; /* Desplazamiento suave */
+  }
+  
+  /* Personalizar scrollbar */
+  .party-candidates::-webkit-scrollbar {
+    height: 10px; /* Altura de la barra de desplazamiento */
+  }
+  
+  .party-candidates::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color de fondo de la pista */
+    border-radius: 10px;
+  }
+  
+  .party-candidates::-webkit-scrollbar-thumb {
+    background: #888; /* Color del pulgar */
+    border-radius: 10px;
+  }
+  
+  .party-candidates::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color del pulgar al pasar el mouse */
+  }
+  
+  .candidate-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    min-width: 200px;  /* Ancho mínimo para las tarjetas */
+    max-width: 300px;  /* Ancho máximo para las tarjetas */
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+    text-align: center; /* Alinea el texto al centro */
+    margin: 20px; /* Margen entre las tarjetas */
+  }
+  
+  .image-row-candidates {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px 15px 0 0; /* Bordes superiores redondeados */
+    overflow: hidden;
+  }
+  
+  .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Esto asegura que la imagen no se salga del div */
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image-vertical {
+    width: 100%;
+    height: 200px; /* Ajusta la altura según sea necesario */
+    object-fit: cover; /* Asegura que la imagen cubra el espacio sin deformarse */
+  }
+  
+  .scroll-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Hace que los botones no interfieran con el scroll normal */
+  }
+  
+  .scroll-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    pointer-events: auto; /* Hace que los botones sean clickeables */
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+  
+  .scroll-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .candidate-card:hover {
+    transform: scale(1.05); /* Escala la tarjeta un poco cuando se pasa por encima */
+  }

@@ -1,0 +1,543 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Votacion",
+    "collectionId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+    "dateExported": "2024-06-03T22:39:21.230Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "f760767e-c6a7-4b6a-851f-ca3abab2cfaf",
+            "name": "Parties",
+            "containerId": "",
+            "created": "2024-05-27T23:50:48.908Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "def7cef6-01ff-4850-a64f-cc04da7adc5a",
+            "name": "Team",
+            "containerId": "",
+            "created": "2024-05-29T03:39:04.458Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "e96365a3-ccd3-472f-86ae-29a74b33ab40",
+            "name": "greenTeam",
+            "containerId": "",
+            "created": "2024-05-29T23:35:07.703Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "fc99263e-9004-4e91-a15c-3cdd1a6aee79",
+            "name": "yellowTeam",
+            "containerId": "",
+            "created": "2024-05-30T00:06:33.030Z",
+            "sortNum": 40000
+        },
+        {
+            "_id": "89d8b84b-f1ed-486d-995e-a448232c4c0b",
+            "name": "yellowBallot",
+            "containerId": "",
+            "created": "2024-05-30T21:10:35.660Z",
+            "sortNum": 50000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "5314c17b-1032-4d42-99fd-014f96d54f32",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "f760767e-c6a7-4b6a-851f-ca3abab2cfaf",
+            "name": "test",
+            "url": "parties/test",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-27T23:50:56.080Z",
+            "modified": "2024-05-27T23:51:01.762Z",
+            "headers": []
+        },
+        {
+            "_id": "97f93686-0525-4d7b-b28d-66bc8de6fbef",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "f760767e-c6a7-4b6a-851f-ca3abab2cfaf",
+            "name": "createPartie",
+            "url": "parties/createPartiesMain",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-27T23:51:12.153Z",
+            "modified": "2024-06-03T21:46:43.269Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Partido central2"
+                    },
+                    {
+                        "name": "logo",
+                        "value": "logo.png"
+                    },
+                    {
+                        "name": "creationDate",
+                        "value": "2024-02-05"
+                    },
+                    {
+                        "name": "colorHex",
+                        "value": "#fff"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "f49240ff-4ee0-432a-ad00-ab076ed54000",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "f760767e-c6a7-4b6a-851f-ca3abab2cfaf",
+            "name": "getPartyByName",
+            "url": "parties/getPartyByName/Na",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-05-28T00:32:34.654Z",
+            "modified": "2024-05-28T00:33:22.862Z",
+            "headers": []
+        },
+        {
+            "_id": "161583cf-2a84-45a3-bb1a-77a4a08e9a94",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "def7cef6-01ff-4850-a64f-cc04da7adc5a",
+            "name": "createTeam",
+            "url": "team/createTeam",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-05-29T03:39:13.177Z",
+            "modified": "2024-05-29T03:41:03.071Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "user",
+                        "value": "665561c38ebba5fcefd9e217"
+                    },
+                    {
+                        "name": "rol",
+                        "value": "PRESIDENTE"
+                    },
+                    {
+                        "name": "district",
+                        "value": "665561c38ebba5fcefd9e217"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "7b345c96-f160-443c-b88b-30050d6b774e",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "def7cef6-01ff-4850-a64f-cc04da7adc5a",
+            "name": "updateTeam",
+            "url": "team/updateTeam/6656a5e17fca78bae685158d",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-05-29T03:48:49.813Z",
+            "modified": "2024-05-29T03:52:53.990Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "rol",
+                        "value": "ALCALDE"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "d5fe4e97-efa6-4384-b21c-66d551bbd646",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "e96365a3-ccd3-472f-86ae-29a74b33ab40",
+            "name": "createGreenTeam",
+            "url": "greenTeam/createGreenTeam",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-05-29T23:35:14.457Z",
+            "modified": "2024-05-29T23:39:02.169Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "partyId",
+                        "value": "6656aa177cc2ec785b0c1a14"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "3a3fa152-161d-46f0-a036-dd114c813858",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "e96365a3-ccd3-472f-86ae-29a74b33ab40",
+            "name": "updateGreenTeam",
+            "url": "greenTeam/updateGreenTeam/6657bc96f3d5f58934849b80",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-05-29T23:43:08.433Z",
+            "modified": "2024-05-29T23:44:35.255Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "newPartyId",
+                        "value": "6656aa177cc2ec785b0c1a14"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "5d99c5a7-4cf2-402a-9523-6069c2de8c94",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "fc99263e-9004-4e91-a15c-3cdd1a6aee79",
+            "name": "createYellowTeam",
+            "url": "yellowTeam/createYellowTeam",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-05-30T00:06:39.478Z",
+            "modified": "2024-05-30T00:10:48.442Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "newPartyId",
+                        "value": "6656aa177cc2ec785b0c1a14"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "0d3f98ef-9cb7-416b-b2f9-5fc81fb0c7da",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "fc99263e-9004-4e91-a15c-3cdd1a6aee79",
+            "name": "updateYellowTeam",
+            "url": "yellowTeam/updateYellowTeam/6657c3556357bfb1f7a4b73d",
+            "method": "PUT",
+            "sortNum": 100000,
+            "created": "2024-05-30T00:09:43.191Z",
+            "modified": "2024-05-30T00:11:33.962Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "newPartyId",
+                        "value": "6656aa177cc2ec785b0c1a14"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "f48a14f2-3d5c-4d0b-b9ca-b442b3d2f286",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "89d8b84b-f1ed-486d-995e-a448232c4c0b",
+            "name": "createYellowBallot",
+            "url": "yellowBallot/createYellowBallot",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2024-05-30T21:10:42.131Z",
+            "modified": "2024-05-30T22:19:57.193Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": ""
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "idTeam",
+                        "value": "6656a5e17fca78bae685158d"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "40a29040-2a94-4979-9551-8cb1683cc99b",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "",
+            "name": "blueBallot",
+            "url": "blueBallot/createBlueBallot",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2024-05-30T22:31:45.263Z",
+            "modified": "2024-05-30T22:32:26.524Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": ""
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "idTeam",
+                        "value": "6656a5e17fca78bae685158d"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "916e80a8-b678-4f43-ad99-493263c75f91",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "f760767e-c6a7-4b6a-851f-ca3abab2cfaf",
+            "name": "update",
+            "url": "parties/updatePartie/6656aa177cc2ec785b0c1a14",
+            "method": "PUT",
+            "sortNum": 130000,
+            "created": "2024-06-02T23:50:51.238Z",
+            "modified": "2024-06-03T00:55:58.811Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"name\": \"Nuevo nombre del partido\",\r\n    \"logo\": [\"nuevo_logo1.jpg\", \"nuevo_logo2.jpg\"],\r\n    \"creationDate\": \"2024-06-02\",\r\n  \"presidentialTeam\": [\r\n    {\r\n      \"user\": \"665963016a2c2b85780063f2\",\r\n      \"role\": \"PRESIDENTE\"\r\n    },\r\n    {\r\n      \"user\": \"665a5cfd95d60fdb41549893\",\r\n      \"role\": \"VICEPRESIDENTE\"\r\n    }\r\n  ],\r\n  \"nationalListDeputies\": [\r\n    {\r\n      \"user\": \"665a74243be00a4bb64bd15f\",\r\n      \"role\": \"DIPUTADO\",\r\n      \"district\": \"665561c38ebba5fcefd9e20d\"\r\n    }\r\n  ],\r\n  \"districtDeputies\": [\r\n    {\r\n      \"user\": \"665a74243be00a4bb64bd15f\",\r\n      \"role\": \"DIPUTADO\",\r\n      \"district\": \"665561c38ebba5fcefd9e20d\"\r\n    }\r\n  ],\r\n  \"parlamentDeputies\": [\r\n    {\r\n            \"user\": \"665a74243be00a4bb64bd15f\",\r\n\r\n      \"role\": \"DIPUTADO\",\r\n      \"district\": \"665561c38ebba5fcefd9e20d\"\r\n    }\r\n  ],\r\n  \"mayorTeam\": [\r\n    {\r\n      \"user\": \"665a74243be00a4bb64bd15f\",\r\n      \"role\": \"ALCALDE\",\r\n            \"district\": \"665561c38ebba5fcefd9e20d\"\r\n\r\n    }\r\n  ],\r\n  \"state\": true,\r\n  \"colorHex\": \"#FFFFFF\"\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "7f41a37c-6f53-4484-8a07-c4602af90d33",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "f760767e-c6a7-4b6a-851f-ca3abab2cfaf",
+            "name": "delete",
+            "url": "parties/deactivateParty/6656aa177cc2ec785b0c1a14",
+            "method": "GET",
+            "sortNum": 140000,
+            "created": "2024-06-03T00:58:44.387Z",
+            "modified": "2024-06-03T01:05:12.417Z",
+            "headers": []
+        },
+        {
+            "_id": "363ee328-4cea-42f0-8aec-df789a614189",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "f760767e-c6a7-4b6a-851f-ca3abab2cfaf",
+            "name": "activatePartie",
+            "url": "parties/activateParty/6656aa177cc2ec785b0c1a14",
+            "method": "GET",
+            "sortNum": 150000,
+            "created": "2024-06-03T01:02:23.954Z",
+            "modified": "2024-06-03T01:04:53.211Z",
+            "headers": []
+        },
+        {
+            "_id": "a91ae954-4a43-49c2-89f2-6eda66478770",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "f760767e-c6a7-4b6a-851f-ca3abab2cfaf",
+            "name": "addPresidentialTeam",
+            "url": "parties/addPresidentialTeam/665e39cd7d5e34bf781f22b3",
+            "method": "POST",
+            "sortNum": 160000,
+            "created": "2024-06-03T21:42:01.079Z",
+            "modified": "2024-06-03T21:48:07.424Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "user",
+                        "value": "665d417c869f03cdbcbd98b2"
+                    },
+                    {
+                        "name": "role",
+                        "value": "VICEPRESIDENTE"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "083ae146-3538-4f81-85a9-3272c025168c",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "f760767e-c6a7-4b6a-851f-ca3abab2cfaf",
+            "name": "addNationalListDeputy",
+            "url": "parties/addNationalListDeputy/665e39cd7d5e34bf781f22b3",
+            "method": "POST",
+            "sortNum": 170000,
+            "created": "2024-06-03T21:53:44.606Z",
+            "modified": "2024-06-03T21:57:05.821Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "user",
+                        "value": "665d3f6485fb3f9a39a22498"
+                    },
+                    {
+                        "name": "role",
+                        "value": "DIPUTADO"
+                    },
+                    {
+                        "name": "district",
+                        "value": "665561c38ebba5fcefd9e217"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "43fd2184-949b-4fb3-989a-522f9aa6471c",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "f760767e-c6a7-4b6a-851f-ca3abab2cfaf",
+            "name": "addDistrictDeputy",
+            "url": "parties/addDistrictDeputy/665e39cd7d5e34bf781f22b3",
+            "method": "POST",
+            "sortNum": 180000,
+            "created": "2024-06-03T22:00:43.159Z",
+            "modified": "2024-06-03T22:02:32.093Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "user",
+                        "value": "665d48d4869f03cdbcbd991b"
+                    },
+                    {
+                        "name": "role",
+                        "value": "DIPUTADO"
+                    },
+                    {
+                        "name": "district",
+                        "value": "665561c38ebba5fcefd9e222"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "c4940d6e-dea8-4469-844d-dbc6d6df67b7",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "f760767e-c6a7-4b6a-851f-ca3abab2cfaf",
+            "name": "addParlamentDeputy",
+            "url": "parties/addParlamentDeputy/665e39cd7d5e34bf781f22b3",
+            "method": "POST",
+            "sortNum": 190000,
+            "created": "2024-06-03T22:06:40.602Z",
+            "modified": "2024-06-03T22:07:35.538Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "user",
+                        "value": "665d54ac31b90c5b53ed4f6d"
+                    },
+                    {
+                        "name": "role",
+                        "value": "DIPUTADO"
+                    },
+                    {
+                        "name": "district",
+                        "value": "665561c38ebba5fcefd9e21e"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "00abf01d-c044-42cf-8aa8-93a13499b2bb",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "f760767e-c6a7-4b6a-851f-ca3abab2cfaf",
+            "name": "addMayorTeamMember",
+            "url": "parties/addMayorTeamMember/665e39cd7d5e34bf781f22b3",
+            "method": "POST",
+            "sortNum": 200000,
+            "created": "2024-06-03T22:11:09.792Z",
+            "modified": "2024-06-03T22:12:00.884Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "user",
+                        "value": "665d53f231b90c5b53ed4f58"
+                    },
+                    {
+                        "name": "role",
+                        "value": "ALCALDE"
+                    },
+                    {
+                        "name": "district",
+                        "value": "665561c38ebba5fcefd9e21e"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "aa0ce9dd-f749-495e-9bb4-18c8c4a2e062",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "f760767e-c6a7-4b6a-851f-ca3abab2cfaf",
+            "name": "updatePartieMain",
+            "url": "parties/updatePartieMain/665e39cd7d5e34bf781f22b3",
+            "method": "PUT",
+            "sortNum": 210000,
+            "created": "2024-06-03T22:18:51.583Z",
+            "modified": "2024-06-03T22:19:18.930Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "partido Centralar"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "7f8d6e76-f90b-4d90-b1c7-8d298811c4f9",
+            "colId": "e97e382e-e4ce-404c-b02f-f0a1616ca4a9",
+            "containerId": "f760767e-c6a7-4b6a-851f-ca3abab2cfaf",
+            "name": "updatePresidentialTeam",
+            "url": "parties/updatePresidentialTeam/665e39cd7d5e34bf781f22b3/665e39e74c502909fd9aa74f",
+            "method": "PUT",
+            "sortNum": 220000,
+            "created": "2024-06-03T22:25:16.932Z",
+            "modified": "2024-06-03T22:26:36.332Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "user",
+                        "value": "665d528331b90c5b53ed4ee3"
+                    },
+                    {
+                        "name": "role",
+                        "value": "PRESIDENTE"
+                    },
+                    {
+                        "name": "district",
+                        "value": "665e39e74c502909fd9aa74f"
+                    }
+                ]
+            }
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2657/"
+        }
+    },
+    "ref": "wzG29c3kspblJJCIh-M3YCtd5pdOa81v9ZlazRk1y3Cj5YC_WB21UQdZTG1Rc8_pM8xXXnCpx7Hx-HJd5rMalw"
+}
